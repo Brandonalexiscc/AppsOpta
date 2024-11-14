@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/mynav"
+            app:startDestination="@id/mFirstFragment">
+
+    <fragment android:id="@+id/mFirstFragment" android:name="com.example.buttonnavigate.mFirstFragment"
+              android:label="fragment_m_first" tools:layout="@layout/fragment_m_first"/>
+    <fragment android:id="@+id/mSecondFragment" android:name="com.example.buttonnavigate.mSecondFragment"
+              android:label="fragment_m_second" tools:layout="@layout/fragment_m_second"/>
+    <fragment android:id="@+id/mThirdFragment" android:name="com.example.buttonnavigate.mThirdFragment"
+              android:label="fragment_m_third" tools:layout="@layout/fragment_m_third"/>
+    <fragment android:id="@+id/mFourFragment" android:name="com.example.buttonnavigate.mFourFragment"
+              android:label="fragment_m_four" tools:layout="@layout/fragment_m_four"/>
+</navigation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="American" android:id="@+id/myAmerican" android:icon="@drawable/american"/>
+    <item android:title="burger" android:id="@+id/myBurger" android:icon="@drawable/burger"/>
+    <item android:title="pizza" android:id="@+id/myPizza" android:icon="@drawable/pizza"/>
+    <item android:title="drinks" android:id="@+id/myDrink" android:icon="@drawable/drink"/>
+</menu>
